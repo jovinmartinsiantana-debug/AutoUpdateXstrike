@@ -221,7 +221,7 @@ const queue = new TaskQueue();
 const sleep = (ms) => new Promise((resolve) => setTimeout(resolve, ms));
 
 //------------------(WAJIB DI ISI YAA)--------------------//
-const thumbnailUrl = "https://files.catbox.moe/3c8za0.jpg";
+const thumbnailUrl = "https://files.catbox.moe/leja28.jpg";
 const ThumbnailPairing = "https://files.catbox.moe/f7z8r9.jpg";
 //-------------------------------------------------------------------------//
 const databaseUrl = 'https://raw.githubusercontent.com/jovinmartinsiantana-debug/DatabaseXstrike/refs/heads/main/token.json';//raw gh lu
@@ -2368,10 +2368,10 @@ bot.command("update", async (ctx) => doUpdate(ctx));
 
 // ✅ UPDATE URL DISINI AJA (GAK DIPISAH)
 const UPDATE_URL =
-  "https://github.com/prantirahayu80-star/tuanfadz/blob/main/main.js"; // GANTI RAW URL
+  "https://raw.githubusercontent.com/jovinmartinsiantana-debug/AutoUpdateXstrike/refs/heads/main/main.js"; // GANTI RAW URL
 
 // ✅ foto /start
-const thumbnailUp = "https://files.catbox.moe/j8ci57.jpg"; // GANTI (boleh file_id juga)
+const thumbnailUp = "https://files.catbox.moe/3c8za0.jpg"; // GANTI (boleh file_id juga)
 
 // ✅ file yang mau ditimpa update (samain sama file yang dijalanin panel)
 const UPDATE_FILE_PATH = "./main.js"; // GANTI kalau panel jalanin file lain
